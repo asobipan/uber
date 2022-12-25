@@ -1,0 +1,413 @@
+@media ( max-width: 1999px )
+    header
+        .nav_bar
+            li
+                padding: 0 47px 0 0
+    .uber
+        .uber_car_photo
+            transform: translateX(35.25%)
+@media ( max-width: 1199px )
+    .md-none
+        display: none
+    header
+        .nav_bar
+            a
+                font-size: 13px
+            li
+                padding: 0 20px 0 0
+        .subheader
+            .call
+                text-align: right
+            a
+                text-align: right
+    .company
+        .title
+            font-size: 54px
+        .subtitle
+            font-size: 31px
+    .mobile_app
+        .row
+            .app
+                width: 300px
+                height: 260px
+    .require
+        .sec_title
+            margin-top: 32px
+            font-size: 32px
+    .countries
+        .sub_sec_title
+            font-size: 16px
+        .sec_title
+            font-size: 36px
+    .uber
+        .uber_car_photo
+            transform: translateX(12.25%)
+    .footer
+        .download
+            img
+                width: 80px
+@media ( max-width: 991px )
+    .md-none
+        display: none
+    header
+        .nav_bar
+            li
+                padding: 0 11px 0 0
+            a
+                font-size: 10px
+    .subheader
+        .logo
+            img
+                width: 100%
+                margin: 19px 0 0 7px
+            &_descr
+                margin: 0 0 0 8px
+                font-size: 12px
+        .call
+            padding-right: 15px
+        .number
+            font-size: 18px
+            padding-right: 15px
+        .call_btn
+            margin-top: 20px
+            height: 40px
+            width: 95%
+            font-size: 13px
+    .company
+
+        .title
+            font-size: 41px
+            &_descr
+                font-size: 16px
+        .subtitle
+            margin-top: 5px
+            font-size: 31px
+        .fsection_btn
+            .request_btn
+                width: 243px
+                height: 62px
+                font-size: 16px
+    .reasons
+        .circle
+            width: 175px
+            height: 108px
+        .sec_title
+            font-size:32px
+    .mobile_app
+        .sec_title
+            font-size: 32px
+        .sub_sec_title
+            font-size: 15px
+    .uber
+        .uber_car_photo
+            transform: translate(7.5%, 5% )
+            width: 600px
+        &_car_descr
+            font-size: 15px
+        &_bg_1
+            .sec_title
+                font-size: 32px
+            .sub_sec_title
+                font-size: 15px
+        &_bg_2
+            padding: 175px 0 85px 0
+            max-height: 0
+            min-height: 0
+    .countries
+        .sub_sec_title
+            font-size: 15px
+        .sec_title
+            font-size: 32px
+    .footer
+        &_wrapper
+            flex-direction: column
+            padding-top: 22px
+            &>div
+                width:50%
+        &_icons
+            width: 100%
+            justify-content: center
+            a
+                padding: 0 10px 15px 0
+            a:last-child
+                padding-right: 0px
+        .download
+            justify-content: center
+            margin-top: 15px
+@media ( max-width: 767px )
+    .xs-none
+        display: none
+    header
+        .nav_bar
+            position: fixed
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            left: -100%
+            width: 50%
+            height: 100vh
+            padding: 20px 15px
+            background-color: rgba(0,0,0, .8)
+            transition: 0.6s all
+            &_active 
+                left: 0
+            .list_items 
+                padding-right: 0px
+                border: none
+                margin: 10px 0
+            &_link 
+                font-size: 20px
+        .subheader
+            .logo
+                &_descr
+                    margin: 4px
+                img
+                    margin: 19px 0 0 0
+                    width: 240px
+                    height: 27px
+            .call_btn
+                width: 190px
+                height: 40px
+                margin: 0
+                display: block
+                margin: 0 auto
+                font-size: 14px
+            .number
+                display: block
+                margin: 10px 0 0 20px
+                text-align: center
+    .company
+        .title
+            font-size: 37px
+        .subtitle
+            font-size: 28px
+            margin-top: 6px
+        .request_btn
+            margin-top: 33px
+    .reasons
+        .sec_title
+            font-size: 27px
+        .circle
+            width: 118px
+            height: 110px
+        .reason_item
+            align-items: center
+    .mobile_app
+        .sec_title
+            font-size: 28px 
+    .uber
+        &_bg_1
+            min-height: 425px
+            .sec_title
+                font-size: 28px
+            .sub_sec_title
+                font-size: 14px
+        .uber_car_photo
+            width: 530px
+            transform: translate(-0.5%, 5%)
+        &_bg_2
+            padding: 125px 0 85px 0
+    .require
+        &_block
+            margin: 15px 0 10px 0
+        .warning
+            margin: 0
+        .sec_title
+            font-size: 28px
+        .row
+            padding: 10px 0 0 0
+            .col-md-6:nth-child(2)
+                padding-top: 10px
+            .col-md-6:nth-child(3)
+                padding-top: 30px
+            .col-md-6:nth-child(4)
+                padding-bottom: 50px
+    .hamburger
+        display: block
+        position: absolute
+        top: 50%
+        right: 10px
+        transform: translateY(-50%)
+        height: 12px
+        &_active
+            span
+                &:nth-child(1)
+                    transform: translateY(2px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(-2px) rotate(45deg)
+        span
+            display: block
+            width: 26px
+            margin-bottom: 2px
+            height: 2px
+            background-color: white
+@media ( max-width: 575px )
+    header
+        height: 32px
+        .tryfix
+            height: 32px
+        .subheader
+            height: 61px
+            top: 32px
+            .logo
+                .sub_logo
+                    height: 100%
+                    width: 100%
+            .number
+                margin: 5px 0 0 15px
+                font-size: 14px
+            .call_btn
+                font-size: 11px
+                width: 130px
+                margin-top: 2px
+                height: 25px
+                border-radius: 0px
+    .company
+        min-height: 450px
+        .title
+            font-size: 30px
+            line-height: 1.2
+        .subtitle
+            font-size: 20px
+            line-height: 1.2
+        .fsection_btn
+            .request_btn
+                width: 210px
+                height: 50px
+                border-radius: 0px
+                margin-top: 72px
+    .reasons
+        padding: 45px 0 65px 0
+        .sec_title
+            font-size: 20px
+    .reason_item
+        flex-direction: column
+        .circle
+            margin: 0
+    .icon_descr
+        display: block
+        width: 100%
+        margin-top: 20px
+        text-align: center
+    .mobile_app
+        .row
+            .app
+                width: 284px
+                height: 223px
+                padding-top: 50px
+            .app_descr
+                font-size: 20px
+                line-height: 26px
+        .sec_title
+            font-size: 18px
+        .sub_sec_title
+            font-size: 14px
+    .exs-none
+        display: none
+    .uber
+        &_bg_1
+            padding: 25px 0 0 0
+            min-height: 500px
+        &_bg_2
+            position: static
+            background: none
+            left: 15%
+            padding: 0
+            .container
+                margin-bottom: 20px
+                margin-left: 20px
+                width: 100%
+        .uber_car_descr
+            display: block
+            font-size: 16px
+            line-height: 24px
+            font-weight: 300
+            color: #ffffff
+            margin-top: -89px
+        .little_btn
+            width: 112px
+            height: 24px
+            font-size: 11px
+            font-weight: 400
+            margin-bottom: 35px
+        .uber_car_photo
+            transform: translate(-4.5%, 5%)
+            width: 100%
+        .uber_car_descr
+            display: block
+            width: 100%
+            position: absolute
+            left: 0
+            text-align: center
+
+    .require
+        padding: 25px 0 0 0
+        .sec_title
+            font-size: 19px
+            margin-top: 15px
+        .row
+            padding: 0
+            .col-md-6:nth-child(3)
+                padding-top: 0px
+            .col-md-6:nth-child(4)
+                padding-bottom: 0px
+    .require_title
+        font-size: 18px
+    .require_item
+        font-size: 15px
+    .countries
+        min-height: 400px
+        padding: 25px
+        a
+            .more_btn
+                font-size: 12px
+        .sec_title
+            font-size: 19px
+    .footer
+        .footer_subline
+            width: 253px
+        padding: 25px 15px 20px 15px
+        .footer_menu
+            width: 100%
+            .russian
+                margin-top: 10px
+                margin-bottom: 5px
+            a
+                font-size: 14px
+                font-weight: 400
+            .footer_headmenu
+                padding: 0 3px
+            .footer_submenu
+                flex-wrap: wrap
+                row-gap: 6px
+                a
+                    font-size: 12px
+                    margin: 0 10px
+        .footer_wrapper > div
+            &:nth-child(2)
+                order:1
+            &:nth-child(1)
+                margin-top: 10px
+                order:2
+            &:nth-child(3)
+                order:3
+        .footer_icons
+            a
+                padding: 0 10px 0 0
+        .footer_download
+            display: flex
+            a
+                display: block
+                width: 100%
+                &:nth-child(1)
+                    margin-top:-1px
+@media ( max-width: 430px )
+    .uber
+        &_bg_1
+            min-height: 400px
+
+            
+
+        
